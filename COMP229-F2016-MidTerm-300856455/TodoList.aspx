@@ -10,7 +10,7 @@
                 </a>
 
             <asp:GridView ID="TodoGridView" runat="server" AutoGenerateColumns="false"
-                CssClass="table table-bordered table-striped table-hover">
+                CssClass="table table-bordered table-striped table-hover" OnRowDeleting="TodoGridView_RowDeleting">
                 <Columns>
                     <asp:BoundField DataField="TodoID" HeaderText="ToDo ID" Visible="true" />
                     <asp:BoundField DataField="TodoDescription" HeaderText="ToDo Tasks" Visible="true" />

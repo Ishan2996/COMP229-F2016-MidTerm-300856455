@@ -5,19 +5,19 @@
             <div class="col-md-offset-3 col-md-6">
 
                 <h1>Todo Details</h1>
-                <h5>All Fields are required</h5>
+               
                 <br />
 
                 <div class="form-group">
-                    <label class="control-label" for="LastNameTextBox">Todo Name</label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="LastNameTextBox" 
-                        placeholder="Last Name" required="true"></asp:TextBox>
+                    <label class="control-label" for="TodoNameTextBox">Todo Name</label>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="TodoNameTextBox" 
+                        placeholder="Write Your Todo Task" required="true"></asp:TextBox>
                 </div>
 
                 <div class="form-group">
-                    <label class="control-label" for="FirstNameTextBox">Todo Notes</label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="FirstNameTextBox" 
-                        placeholder="First Name" required="true"></asp:TextBox>
+                    <label class="control-label" for="NotesTextBox">Todo Notes</label>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="NotesTextBox" 
+                        placeholder="Write Your Notes" required="false"></asp:TextBox>
                 </div>
 
                 <div class="text-right">
