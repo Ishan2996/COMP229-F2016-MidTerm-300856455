@@ -1,5 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP229_F2016_MidTerm_300856455.Site" %>
-
+<!-- Name: Ishan Sharma -->
+<!-- Student ID: 300856455 -->
+<!-- Date: October 19,2016 -->
+<!-- COMP229-F2016-MidTerm Test-->
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
